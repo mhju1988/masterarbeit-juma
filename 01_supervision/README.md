@@ -6,7 +6,6 @@ not interpretation: keep originals unedited.
 | Folder | Contents |
 |---|---|
 | `meetings/` | Meeting protocols (Gesprächsprotokolle) |
-| `emails/` | Supervisor emails, saved as `.md` or `.eml` |
 | `commented-drafts/` | Documents returned with comments or tracked changes |
 
 **Naming:** prefix everything with the date it was sent or held —
@@ -15,5 +14,5 @@ not interpretation: keep originals unedited.
 **`SUPERVISOR_REQUIREMENTS.md` is the consolidated, current summary.** Read it first; the
 raw files back it up. Update it whenever something new arrives here.
 
-Emails arrive as text — paste them into `emails/` as dated markdown files so they stay
-searchable and survive mailbox cleanups.
+Correspondence with the supervisors is kept separately and is not part of this
+repository.
