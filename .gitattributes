@@ -1,0 +1,7 @@
+# Normalise line endings — this repo is edited on Windows and read by POSIX tools.
+* text=auto eol=lf
+*.pdf  binary
+*.docx binary
+*.xlsx binary
+*.png  binary
+*.jpg  binary

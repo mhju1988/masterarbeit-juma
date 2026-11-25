@@ -1,0 +1,50 @@
+# Corpora — large, and redistributable only under their original terms.
+# Keep the READMEs and the SOURCE.md provenance files.
+06_data/**
+!06_data/README.md
+!06_data/**/SOURCE.md
+!06_data/**/
+
+# Raw experiment output — regenerable, and large.
+# Configs ARE tracked: they are what makes a run reproducible.
+07_experiments/results/**
+!07_experiments/results/README.md
+!07_experiments/results/**/
+
+# LaTeX build artefacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.synctex.gz
+*.toc
+04_thesis/**/*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Secrets — LLM API keys never get committed
+.env
+*.key
+credentials.json
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Third-party papers — re-downloadable, licences vary (the FLAIRS paper is CC BY-NC),
+# and 16 MB of binary would sit in the history permanently.
+# Reading notes and the author's own work ARE tracked.
+03_literature/papers/*.pdf
+!03_literature/papers/Mohamad-Juma-Bachelorarbeit.pdf
